@@ -1,6 +1,6 @@
 *Cache coherence simulation* 
 
-This simulation represents how the cache performs to maintain the coherence between two processors using the MSI protoc
+This simulation represents how the cache performs to maintain the coherence between two processors using the MSI protocol
 This simulation was performed using SMPCache simulator which is a trace-driven simulator for the analysis and teaching of cache memory systems on symmetric multiprocessors.
 
 *the transition diagram for the MSI protocol*
