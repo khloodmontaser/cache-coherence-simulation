@@ -25,6 +25,7 @@ This simulation was performed using SMPCache which is a trace-driven simulator f
 ### **Accesses number 1**
 
 ![image](https://user-images.githubusercontent.com/113125527/218518016-7903c182-dfae-4d27-8f31-3f0a1df370fc.png)
+
 ```
 As we can see, p0 sent a read requast because it wanted to read block 273.
 first it searched in its cache and didn't find the data so it showed a miss in cache, then it sent a read request on the bus and the bus response with the data from the main memory.
@@ -38,21 +39,57 @@ first it searched in its cache and didn't find the data so it showed a miss in c
 ------
 
 ### **Accesses number 2**
-
+![image](https://user-images.githubusercontent.com/113125527/218524547-6c85eac3-24b8-4df8-a16b-41da35766f60.png)
 
 ```
-
+p0 sent a read requast because it wanted to read block 273.
+first it searched in its cache and found the data so it showed a hit in cache
 ```
 
 ### **State Transition**
 
-```
-```
+![image](https://user-images.githubusercontent.com/113125527/218525033-e8aaa731-eeb5-4eeb-a7a7-58d6fb9c65d4.png)
+> ##### From ``invalid`` to ``shared`` 
+> and know the block is shared for both po and p1
 
 ------
 
 ### **Accesses number 3**
+![image](https://user-images.githubusercontent.com/113125527/218525993-1de5ecd1-7648-47ef-bef2-0a3d12334a8e.png)
 
+ ```
+p0 sent a read requast because it wanted to read block 273.
+first it searched in its cache and found the data so it showed a hit in cache
+ ```
+
+### **State Transition**
+![image](https://user-images.githubusercontent.com/113125527/218526459-831841c5-8155-4b8a-8921-b9ed6b63aa3d.png)
+
+``` 
+```
+### **Accesses number 4**
+
+ ```
+
+ ```
+
+### **State Transition**
+
+
+``` 
+```
+### **Accesses number 5**
+
+ ```
+
+ ```
+
+### **State Transition**
+
+
+``` 
+```
+### **Accesses number 6**
 
  ```
 
