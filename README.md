@@ -115,10 +115,12 @@ p0 found the block in its cache ---> cache hit
 ![image](https://user-images.githubusercontent.com/113125527/218727860-d2ebbed3-93cf-44a5-b542-ac419f27223b.png)
 
  ```
-
+first p0 found the block in its cache ---> cache hit
+then p0 modified it
  ```
 ### **p0 and p1 caches**
 ![image](https://user-images.githubusercontent.com/113125527/218728056-bdc0336b-d381-4892-8b7a-1e3eeda32c24.png)
 
 ### **State Transition**
 ![image](https://user-images.githubusercontent.com/113125527/218728126-6b0acd62-f601-4e10-b9a4-b9d03423c3f6.png)
+> from ``shared`` to ``modified``
