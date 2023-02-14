@@ -5,5 +5,5 @@
 
 ###### *this configugration contains 2 processes p0 and p1, their cache size 256 Bytes each has a block size 16 Bytes.*
 
-* from file menu choose Open memory traces then go to ``C:\PROGRAM FILES (X86)\ARCO\SMPCACHE\EXAMPLES\SMP\`` and on top right corner make sure that ``P0`` and ``P1`` are loaded with MSI1.prg.
+* from file menu choose Open memory traces then go to C:\PROGRAM FILES (X86)\ARCO\SMPCACHE\EXAMPLES\SMP\ and on top right corner make sure that ``P0`` and ``P1`` are loaded with MSI1.prg.
 * from View menu choose Cache Evolution and make sure Processor cache is 0.
