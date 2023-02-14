@@ -30,6 +30,9 @@ This simulation was performed using SMPCache which is a trace-driven simulator f
 As we can see, p0 sent a read requast because it wanted to read block 273.
 first it searched in its cache and didn't find the data so it showed a miss in cache, then it sent a read request on the bus and the bus response with the data from the main memory.
 ```
+### **p0 and p1 caches**
+![image](https://user-images.githubusercontent.com/113125527/218720473-cd696ad8-cc20-4984-8208-d9a09f9d6165.png)
+
 
 ### **State Transition**
 
@@ -45,6 +48,7 @@ first it searched in its cache and didn't find the data so it showed a miss in c
 p0 sent a read requast because it wanted to read block 273.
 first it searched in its cache and found the data so it showed a hit in cache
 ```
+### **p0 and p1 caches**
 
 ### **State Transition**
 
@@ -61,39 +65,49 @@ first it searched in its cache and found the data so it showed a hit in cache
 p0 sent a read requast because it wanted to read block 273.
 first it searched in its cache and found the data so it showed a hit in cache
  ```
+### **p0 and p1 caches**
 
 ### **State Transition**
 ![image](https://user-images.githubusercontent.com/113125527/218526459-831841c5-8155-4b8a-8921-b9ed6b63aa3d.png)
 
 ``` 
 ```
+------
+
 ### **Accesses number 4**
 
  ```
 
  ```
+### **p0 and p1 caches**
 
 ### **State Transition**
 
 
 ``` 
 ```
+------
+
 ### **Accesses number 5**
 
  ```
 
  ```
+### **p0 and p1 caches**
 
 ### **State Transition**
 
 
 ``` 
 ```
+------
+
 ### **Accesses number 6**
 
  ```
 
  ```
+### **p0 and p1 caches**
 
 ### **State Transition**
 
