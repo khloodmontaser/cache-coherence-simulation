@@ -47,12 +47,12 @@ the state for p0 became ``shared``
 
 ```
 p0 sent a read requast because it wanted to read block 273.
-first it searched in its cache and found the data so it showed a hit in cache
+first it searched in its cache and found the data so it showed ``a hit in cache``.
 ```
 ### **p0 and p1 caches**
 ![image](https://user-images.githubusercontent.com/113125527/218721889-a7df51dd-a82c-4e8b-81f1-f06e84ca27a8.png)
 ```
-the state for both p0 and p1 became ``shared``
+the state for both p0 and p1 became shared.
 ```
 ### **State Transition**
 
