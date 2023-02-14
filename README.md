@@ -23,7 +23,7 @@ This simulation was performed using SMPCache which is a trace-driven simulator f
 
 ### **Accesses number 1**
 
-![image](https://user-images.githubusercontent.com/113125527/218518016-7903c182-dfae-4d27-8f31-3f0a1df370fc.png)
+![image](https://user-images.githubusercontent.com/113125527/218723858-10035615-d6d6-4888-93ff-f880b38b7815.png)
 
 ```
 As we can see, p0 sent a read requast because it wanted to read block 273.
@@ -32,7 +32,7 @@ first it searched in its cache and didn't find the data so it showed a miss in c
 ### **p0 and p1 caches**
 ![image](https://user-images.githubusercontent.com/113125527/218720473-cd696ad8-cc20-4984-8208-d9a09f9d6165.png)
 ```
-the state for p0 became ``shared``
+the state for p0 became shared
 ```
 
 ### **State Transition**
@@ -72,13 +72,11 @@ first it searched in its cache and found the data so it showed a hit in cache
 ### **p0 and p1 caches**
 ![image](https://user-images.githubusercontent.com/113125527/218722279-93e66f88-d923-474f-a19e-9e5945668d49.png)
 ``` 
-p1 modified the bloch so it became ``invalid`` for p0
+p1 modified the block so it became invalid for p0
 ```
 ### **State Transition**
 ![image](https://user-images.githubusercontent.com/113125527/218526459-831841c5-8155-4b8a-8921-b9ed6b63aa3d.png)
 
-``` 
-```
 ------
 
 ### **Accesses number 4**
