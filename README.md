@@ -26,7 +26,7 @@ This simulation was performed using SMPCache which is a trace-driven simulator f
 ![image](https://user-images.githubusercontent.com/113125527/218723858-10035615-d6d6-4888-93ff-f880b38b7815.png)
 
 ```
-As we can see, p0 sent a read requast because it wanted to read block 273.
+As we can see, p0 sent a read request because it wanted to read block 273.
 first it searched in its cache and didn't find the data so it showed a miss in cache, then it sent a read request on the bus and the bus response with the data from the main memory.
 ```
 ### **p0 and p1 caches**
@@ -46,7 +46,7 @@ the state for p0 became shared
 ![image](https://user-images.githubusercontent.com/113125527/218524547-6c85eac3-24b8-4df8-a16b-41da35766f60.png)
 
 ```
-p0 sent a read requast because it wanted to read block 273.
+p0 sent a read request because it wanted to read block 273.
 first it searched in its cache and found the data so it showed ``a hit in cache``.
 ```
 ### **p0 and p1 caches**
@@ -66,7 +66,7 @@ the state for both p0 and p1 became shared.
 ![image](https://user-images.githubusercontent.com/113125527/218525993-1de5ecd1-7648-47ef-bef2-0a3d12334a8e.png)
 
  ```
-p0 sent a read requast because it wanted to read block 273.
+p0 sent a read request because it wanted to read block 273.
 first it searched in its cache and found the data so it showed a hit in cache
  ```
 ### **p0 and p1 caches**
@@ -80,42 +80,45 @@ p1 modified the block so it became invalid for p0
 ------
 
 ### **Accesses number 4**
+![image](https://user-images.githubusercontent.com/113125527/218724419-38f95f29-4106-4647-890a-d37502d024ed.png)
 
  ```
-
+in access number 3 p1 modified the block so it became invalid for p0 that explained why it's no longer in p0 cache.
+p0 sent a read request ro the bus and the bus reponse with block transfered from p1. 
  ```
 ### **p0 and p1 caches**
-
+![image](https://user-images.githubusercontent.com/113125527/218724652-22bc0d0d-6bfc-45dc-a95b-116ce0bbe000.png)
+> ``shared`` for both processors.
 ### **State Transition**
 
-
-``` 
-```
+![image](https://user-images.githubusercontent.com/113125527/218724810-df2645a3-5656-41fb-933c-a13acfd98b1b.png)
+> p0 state from ``invalid`` to ``shared``
 ------
 
 ### **Accesses number 5**
+![image](https://user-images.githubusercontent.com/113125527/218726964-cd9e16d4-0dea-4a26-8842-2c18c2d4bfde.png)
 
  ```
-
+p0 found the block in its cache ---> cache hit
  ```
 ### **p0 and p1 caches**
+![image](https://user-images.githubusercontent.com/113125527/218727548-098deddf-9855-4b84-a859-5bb2098074ca.png)
 
 ### **State Transition**
+![image](https://user-images.githubusercontent.com/113125527/218727091-053821a7-0085-43cd-83ac-32d1b26f46ea.png)
 
+>``shared`` to ``shared``
 
-``` 
-```
 ------
 
 ### **Accesses number 6**
+![image](https://user-images.githubusercontent.com/113125527/218727860-d2ebbed3-93cf-44a5-b542-ac419f27223b.png)
 
  ```
 
  ```
 ### **p0 and p1 caches**
+![image](https://user-images.githubusercontent.com/113125527/218728056-bdc0336b-d381-4892-8b7a-1e3eeda32c24.png)
 
 ### **State Transition**
-
-
-``` 
-```
+![image](https://user-images.githubusercontent.com/113125527/218728126-6b0acd62-f601-4e10-b9a4-b9d03423c3f6.png)
