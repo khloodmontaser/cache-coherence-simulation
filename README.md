@@ -19,7 +19,7 @@ This simulation was performed using SMPCache which is a trace-driven simulator f
 *  from View menu choose Cache Evolution and make sure Processor cache is 0.
 ------
 
-# Results ######**for the first six times**
+# Results **for the first six times**
 
 ### **Accesses number 1**
 
