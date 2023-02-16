@@ -48,7 +48,7 @@ the state for both p0 and p1 became shared.
 
 ![image](https://user-images.githubusercontent.com/113125527/218525033-e8aaa731-eeb5-4eeb-a7a7-58d6fb9c65d4.png)
 > ##### From ``invalid`` to ``shared`` 
-> and know the block is shared for both po and p1
+> and now the block is shared for both po and p1
 
 ------
 
